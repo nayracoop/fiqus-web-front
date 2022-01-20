@@ -5,7 +5,7 @@ title: "Emprendimientos, moda o realidad?"
 author: "Martín Vallone"
 slug: "/emprendimientos-moda-o-realidad"
 date: "2013-06-19"
-image:  ../images/emprendimientos-moda-o-realidad-header.jpg
+image:  ../images/emprendimientos-moda-o-realidad-header.jpeg
 imageCredits: "unsplash"
 tags: ["coop", "cooperativa", "emprender"]
 ---

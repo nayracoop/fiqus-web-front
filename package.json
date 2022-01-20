@@ -1,7 +1,7 @@
 {
   "name": "fiqus-web",
   "version": "1.0.0",
-  "homepage": "https://nayracoop.github.io/fiqus-web-front",
+  "homepage": "https://fiqus.github.io/fiqus-web-front",
   "private": true,
   "description": "fiqus-web",
   "author": "RomiGomez",
@@ -11,10 +11,9 @@
   "scripts": {
     "develop": "gatsby develop -H 0.0.0.0",
     "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "build": "gatsby build --prefix-paths",
+    "serve": "gatsby serve --prefix-paths",
+    "clean": "gatsby clean"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",

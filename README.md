@@ -25,9 +25,3 @@
     Will create or update the build folder that should be uploaded to the server. 
 
 
-    ```shell
-    npm run deploy
-    ```
-    Will create or update the build folder and also upload it to gh-pages: https://nayracoop.github.io/fiqus-web-front
-
-

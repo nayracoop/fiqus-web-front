@@ -5,7 +5,7 @@ title: "Equivocarse.. es bueno?"
 author: "Martín Vallone"
 slug: "/equivocarse-bueno"
 date: "2013-06-19"
-image:  ../images/equivocarse-bueno-header.jpg
+image:  ../images/equivocarse-bueno-header.jpeg
 imageCredits: "unsplash"
 tags: ["coop", "cooperativa", "ner"]
 ---
