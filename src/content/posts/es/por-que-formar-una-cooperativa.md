@@ -1,58 +1,48 @@
 ---
 lang: es
 type: "post"
-title: "Cooperar contra la violencia"
+title: "Por qué formar una Cooperativa?"
 author: "FIQUS"
-slug: "/cooperar-contra-la-violencia"
-date: "2017-11-25"
-image:  ../images/pactocooperativo.png
+slug: "/por-que-formar-una-cooperativa"
+date: "2014-07-16"
+image:  ../images/por-que-formar-una-cooperativa.jpeg
 imageCredits: "Créditos de imagen unsplash"
 tags: []
 ---
 
 
-El día de hoy es el **Día Internacional de la Eliminación de la Violencia contra la Mujer** en conmemoración al asesinato en 1960 de las tres hermanas Mirabal en República Dominicana. En Fiqus nos tomamos esta problemática con seriedad: según datos de las Naciones Unidas, cada 18 segundos una mujer es maltratada en el mundo, y al menos una de cada cinco es víctima de violencia en el hogar, tal como informa la Organización Mundial de la Salud.
+¿Por qué comés eso? ¿Por qué trabajás de lo que trabajás? ¿Por qué vivís ahí? son sólo algunas preguntas de esas que pueden hacerte dudar y no saber qué responder de inmediato. Como muchas veces sucede, una inocente pregunta puede resultar un gran disparador para cuestionarse el porqué de lo que hacemos. Hace poco tiempo nos preguntaron:
 
-En nuestro país, de acuerdo con datos de la Corte Suprema de Justicia correspondientes al año **2016, cada 30 horas moría una mujer** a manos de su pareja o ex pareja, y en lo que va de 2017 ya la cifra aumenta a más de un feminicidio por día.
+¿Cuál es la ventaja de formar una cooperativa si nosotros seis somos monotributistas y trabajamos como si fuéramos una cooperativa? Creemos que si hacemos una cooperativa vamos a agregar complejidad y vamos a tener más cosas para pagar y para administrar.
 
-Es por eso que cuando nos llegó un e-mail del Instituto Movilizador de Fondos Cooperativos (IMFC) en el que la Confederación Cooperativa de la República Argentina (Cooperar), a través del Comité de Equidad de Género, nos invitaba a **adherir al Acta Compromiso del Pacto Cooperativo por la No Violencia de Género, el voto fue unánime**. El objetivo de esta firma es visibilizar y potenciar el accionar de nuestras organizaciones en la construcción de una sociedad con equidad de género, y por lo tanto más inclusiva y democrática.
+Ya con la pregunta sobre la mesa, nos vimos motivados a responderla en todos los aspectos que la misma englobó. No solo nos preguntaron cual es la **ventaja** de formar una cooperativa, si no que también nos presentaron una comparación de las **complejidades administrativas y económicas** entre una cooperativa versus un grupo de monotributistas.
 
-Les dejamos, a continuación, el acta que hemos firmado.
+Pasamos a formular nuestra respuesta tratando de ser lo más claros posibles.
 
-<h3 class="blogPost__PostTitle-ftUHjH eNilBk"> Acta Compromiso del Pacto Cooperativo por la No Violencia de Género </h3>
-  
-Los abajo firmantes adherimos al Pacto Cooperativo por la No Violencia de Género, que implica bregar por el cumplimiento de los siguientes compromi
+Antes que nada, es importante aclarar que los socios de una cooperativa de trabajo deben ser monotributistas.
 
-## Compromiso I
-Condenar la violencia de género en todas sus manifestaciones, expresando públicamente nuestro rechazo, sabiendo que es un atentado contra la integridad y dignidad de las mujeres y que, como tal, debe ser considerado socialmente inaceptable.
-<
+Para nosotros, ser legalmente una cooperativa tiene sus **ventajas**:
 
-## Compromiso II
-Fomentar una actitud crítica, solidaria y comprometida de todos los asociados y asociadas frente a situaciones de violencia impulsando la participación de todos y todas en su erradicación.
+* Podés facturar A, B y E; en lugar de facturas C, propio del Monotributista. Por experiencias propias, resulta un gran despelote tener que hacer facturas C individualmente a los clientes (la no correlatividad, los límites de facturación individuales, facturas ligadas a lo personal mezcladas con lo grupal, etc). Además, la mayoría de los clientes valoran mucho más que puedas realizarle una factura A.
+* Acceso a beneficios de financiamiento o subsidios para cooperativas/cooperativistas.
+* Limpieza y seriedad económica-administrativa: Al tener personería jurídica podés/debés sacar una cuenta en cualquier banco a nombre de la cooperativa, sin tener que terminar usando la cuenta de alguno de los socios/monotributistas asociados.
+* Podés formar parte de una federación de cooperativas, perteneciendo así, a un grupo en el que se logra una sinergia que ayuda al crecimiento y estabilidad de sus integrantes.
+* Siendo cooperativa estás incluido en la visibilidad a nivel nacional e internacional del movimiento que nos engloba; por ejemplo, cuando calculan el PBI que generan las cooperativas para el país.
+* Al interactuar en el mercado, ser una empresa cooperativa tiene un impacto mayor que un grupo de personas que trabajan juntos sin una estructura que los respalde.
+* Reconocimiento frente a las otras organizaciones (estatales o privadas) como una empresa legítima.
+* Para quienes tienen un espíritu revolucionario, las cooperativas representan una forma de trabajo diferente, en la que se promueve la igualdad entre los socios, así como el respeto de ciertos principios y favoreciendo un ambiente laboral colaborativo.
+* Si alguno de los socios decide dejar la cooperativa, la Ley de Cooperativas (20.337) lo protege, obligando a que le sea reintegrado el capital social que le corresponde (ver ARTICULO 25). En un grupo de monotributistas, no hay documento que respalde a quien decida abrirse del grupo, dependen de la buena fe de los integrantes.
 
-## Compromiso III
-Promover la participación de mujeres en los órganos de conducción y fiscalización de las entidades e incorporar la perspectiva de género de manera transversal a la vida institucional.
+Ahondando en el tema **económico**, aunque parezca mentira, no hay tantas diferencias:
 
+* Las cooperativas están exentas de impuesto a las ganancias.
+* Como dijimos antes, los socios de cooperativa somos monotributistas, por ende, estimando un ingreso aproximado parecido sea cual fuere el camino elegido, no cambiaría el monto que la persona debe pagar de monotributo.
+* Las cooperativas de CABA estan exentas de IIBB (ingresos brutos), en otras jurisdicciones no. Los monotributistas deben pagar IIBB salvo exentos por título profesional o casos especiales.
+* Entendemos que tanto una cooperativa como un monotributista necesitan servicios de contador, más en el hipotético caso del grupo de monotributistas, donde su facturación ascendería considerablemente. Por ende, no vemos como un gasto extra dicho servicio.
+* Las cooperativas deben destinar un porcentaje de sus excedentes de cada ejercicio a diferentes Fondos. [Pueden encontrar más información en nuestro antiguo post](http://blog.fiqus.com/2014/01/administracion-de-cooperativas-parte-3/)
 
-## Compromiso IV
-Involucrar a todos los consejeros, asesores y funcionarios de la entidad, poniendo a su disposición herramientas de apoyo, formación, asesoramiento e información para que sepan cómo pueden prestar su ayuda a las mujeres víctimas de agresiones, y a las hijas e hijos a su cargo
+Concluyendo, formar una cooperativa es darle un marco a la forma de trabajo, asumir compromisos y responsabilidades bajo una estructura legal. No obstante, los [principios cooperativos](http://es.wikipedia.org/wiki/Principios_cooperativos) resultan de gran importancia para la formación y desarrollo de los socios; creemos que es una forma de no perder el norte y recordar ciertas cuestiones que muchas veces dejamos de lado (por ejemplo la capacitación o la ayuda a la comunidad).
 
+Se te ocurre alguna otra diferencia entre cooperativas y grupo de monotributistas? 
 
-## Compromiso V
-Informarse y poner a disposición de las asociadas y asociados protocolos y procedimientos locales para la concientización, prevención y erradicación de la violencia contra las mujeres, articulando para esto los medios necesarios con el estado local.
-
-
-## Compromiso VI
-Peticionar en nuestras comunidades el cumplimiento Plan Nacional de Acción para la Prevención, Asistencia y Erradicación de la Violencia contra las mujeres impulsado desde el Consejo Nacional de las Mujeres.
-
-
-## Compromiso VII
-Promover desde nuestros medios de comunicación (página web, redes sociales, cartelera de novedades, facturación etc…) el número gratuito para denuncias (144) sumándonos a la campaña “Cooperar contra la Violencia”
-
-
-## Compromiso VIII
-Realizar al menos una vez al año una acción de sensibilización sobre la violencia de género.
-
-
-## Compromiso IX
-Dar difusión al Pacto Cooperativo por la no Violencia de Género y a la firma de la presente acta de compromiso.
+Dejanos tu comentario!
