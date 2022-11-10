@@ -8,6 +8,11 @@
     "footer": {
         "designby": "Un trabajo intercooperativo de",
         "coopName": "el maizal y nayra",
+        "coopName1": "el maizal",
+        "coopName2": "nayra",
+        "coopName1Path": "https://elmaizal.coop.ar",
+        "coopName2Path": "https://nayra.coop",
+        "preposition": "y",
         "disclaimer": "Salvo que se indique lo contrario, el contenido de este sitio tiene una licencia de ",
         "licenseName": "Creative Commons Attribution",
         "licenseIconAlt": "Creative Commons Attribution logo"
