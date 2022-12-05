@@ -4,7 +4,7 @@ type: "post"
 title: "La toma de decisión colectiva"
 author: "Nicolás Dimarco"
 slug: "/la-toma-de-decision-colectiva"
-date: "2022-12-10"
+date: "2022-12-05"
 image:  ../images/2022_12_Fiqus_LoomioDiaDeLaDemocracia_BlogWeb.jpg
 imageCredits: "unsplash"
 tags: ["cooperativismo"]
@@ -13,13 +13,15 @@ tags: ["cooperativismo"]
 
 Fiqus al ser una cooperativa se organiza de manera democrática y horizontal: constantemente debatimos y nos ponemos de acuerdo entre 14 personas, ahora bien, ¿cómo tomamos las decisiones de manera colectiva? 
 
+<img src="../images/2022_12_Fiqus_LoomioDiaDeLaDemocracia_BlogWeb.jpg" />
+
 Hace algunos años atrás el proceso de toma decisiones colectivas era lento y complejo. Incluso muchas veces se intentaba lograr un consenso ante las decisiones importantes y eso generaba  desgaste y pérdida de tiempo.
 
 Con el tiempo fuimos entendiendo que el consenso puede servir en ciertas ocasiones pero muchas veces va en detrimento de la voluntad de la mayoría, que es básicamente uno de los pilares de las organizaciones democráticas. 
 
 Además, dentro de organizaciones horizontales como la nuestra suele ocurrir que, durante los debates donde se toman decisiones, las personas con mayor trayectoria o con una personalidad más fuerte son las que tienen mayor facilidad para expresar su opinión y contraponer su idea con la del resto. En cambio, hay compañerxs que por diversas razones no cuentan con esa facilidad (ya sea por antigüedad o por rasgos personales) y les resulta más complejo dar su opinión durante el debate y a veces esas voces se pierden en el proceso mismo. En cambio, a éstxs últimxs les resulta más sencillo expresarse por escrito y por fuera del fervor del debate. 
 
-¿Cómo resolvimos este problema? Hace tres años en una Show&Tell organizada por la Federación de Cooperativa de Trabajo, Tecnología, Innovación  y Conocimiento [FACTTIC](hhttps://facttic.org.ar/) conocimos la plataforma cooperativa [Loomio](https://www.loomio.com/) una plataforma web que sirve para tomar decisiones colectivas. Mediante diferentes opciones, se pueden crear encuestas y facilitar el proceso de toma de decisiones.  A su vez, genera transparencia, ya que todas las decisiones están en un mismo lugar, con los argumentos y resultados abiertos a todas las personas de la organización.
+¿Cómo resolvimos este problema? Hace tres años en una Show&Tell organizada por la Federación de Cooperativa de Trabajo, Tecnología, Innovación  y Conocimiento [FACTTIC](https://facttic.org.ar/) conocimos la plataforma cooperativa [Loomio](https://www.loomio.com/) una plataforma web que sirve para tomar decisiones colectivas. Mediante diferentes opciones, se pueden crear encuestas y facilitar el proceso de toma de decisiones.  A su vez, genera transparencia, ya que todas las decisiones están en un mismo lugar, con los argumentos y resultados abiertos a todas las personas de la organización.
 
 Comenzamos a probar Loomio entendiendo que es una herramienta que facilita el proceso, pero no reemplaza el debate. Es decir, hay ocasiones en las que hace falta seguir debatiendo o generando procedimientos que guíen la dinámica de la toma de decisiones y Loomio será solo una herramienta durante esas discusiones.  Un ejemplo, para que se entienda, supongamos que hacemos una votación que genera mucha polémica dentro de la organización. Somos 11 personas y la votación, luego de un debate acalorado, sale 6 a 5. Tal vez no sea una buena idea mantener las mismas condiciones de la votación si casi el 50% del colectivo no está conforme con la decisión. En su lugar, se puede optar por cambiar algunos detalles o condiciones de la decisión a tomar para lograr un punto intermedio. Esto queda sujeto a la decisión de cada organización. 
 
