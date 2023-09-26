@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components'
 import Header from '../common/Header'
@@ -17,7 +17,7 @@ const Wrapper = styled.div`
     min-height:100%;
     background: ${styles.colors.white};      
 `
-const PageContainer = styled.section `
+const PageContainer = styled.section`
     width:100%;
     margin: 0 auto;
     padding-top: 62px;
@@ -31,9 +31,9 @@ const PageWrapper = (props) => {
     // hay que cambiar los homepaths cuando se deploye al server final
     const homePathsGHpages = ["/", "/es", "/en"]
 
-    useEffect(()=>{
+    useEffect(() => {
 
-        if(homePathsGHpages.includes(props.location.pathname) === true){
+        if (homePathsGHpages.includes(props.location.pathname) === true) {
             setIsHomepage("true")
         } else {
             setIsHomepage("false")
@@ -42,21 +42,22 @@ const PageWrapper = (props) => {
     }, [props.location])
 
     // Hack to redirect /showcase to the showcase.pdf
-    let path = props.location.pathname
-    if (path.includes('/showcase')) {
-        let cleanPath = path.endsWith('/') ? path.slice(0, -1) : path;
+    let path = props.location.pathname;
 
-        const pdfUrl = "/showcase.pdf"; 
+    if (path.includes('/showcase')) {
+        const pdfUrl = "/showcase.pdf";
+
         if (typeof window !== `undefined`) {
-          // redirect if is window is available (client)
-          window.location.href = window.location.href.replace(cleanPath, pdfUrl)
+            // redirect if window is available (client)
+            window.location.href = `${window.location.origin}${pdfUrl}`;
         }
-        return (<div></div>)
+
+        return (<div></div>);
     }
 
     return (
-        <StaticQuery 
-        query = { graphql`
+        <StaticQuery
+            query={graphql`
             query MyQuery {
                 site {
                     siteMetadata {
@@ -68,16 +69,16 @@ const PageWrapper = (props) => {
                 }
             }
         `
-        }
-        render = { data => (
+            }
+            render={data => (
                 <Wrapper>
                     <Seo></Seo>
-                    <Header menuLinks = {data.site.siteMetadata.menuLinks} location={props.location} ishomepage={ishomepage}></Header>
+                    <Header menuLinks={data.site.siteMetadata.menuLinks} location={props.location} ishomepage={ishomepage}></Header>
                     <PageContainer> {props.children}</PageContainer>
                     <Footer></Footer>
                 </Wrapper>
-        )}>
-            
+            )}>
+
         </StaticQuery>
     );
 };

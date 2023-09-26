@@ -24,4 +24,8 @@
     ```
     Will create or update the build folder that should be uploaded to the server. 
 
+## NOTE 🚨
+
+we have to configure the domain in setting/pages after a deploy
+
 
