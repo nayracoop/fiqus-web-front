@@ -8,6 +8,11 @@
     "footer": {
         "designby": "Un trabajo intercooperativo de",
         "coopName": "el maizal y nayra",
+        "coopName1": "el maizal",
+        "coopName2": "nayra",
+        "coopName1Path": "https://elmaizal.coop.ar",
+        "coopName2Path": "https://nayra.coop",
+        "preposition": "y",
         "disclaimer": "Salvo que se indique lo contrario, el contenido de este sitio tiene una licencia de ",
         "licenseName": "Creative Commons Attribution",
         "licenseIconAlt": "Creative Commons Attribution logo"
@@ -63,14 +68,14 @@
     "verMasArticulos": "ver todos los artículos",
     "y": " y ",
     "contactForm": {
-        "title": "Contacto",
+        "title": "Contactanos",
         "nameField": "Nombre",
         "emailField": "E-mail",
         "requiredFieldError": "Por favor, complete el campo requerido.",
         "textAreaField": "Mensaje",
         "messageSent": "Tu mensaje ha sido enviado.",
         "thankYou": "Gracias por comunicarte con nosotr@s",
-        "email": "info@fiqus.com",
+        "email": "info@fiqus.coop",
         "sedes": "Sedes",
         "office1": "14 de Julio 1268 Ciudad de Buenos Aires, Argentina",
         "office2": "Las Frutillas 109, Casa 2 Villa La Angostura, Neuquén, Argentina"
@@ -145,7 +150,8 @@
         "title": "Capacitación",
         "description": "Realizamos capacitaciones técnicas y/o de cooperativismo para organizaciones, cooperativas y empresas donde buscamos transmitir de forma amena y sistematizada los conocimientos adquiridos en el ámbito tecnológico y cooperativo.",
         "image" : "capacitacion",
-        "featuredServiceImageAlt" : "Capacitación, ilustración animada"
+        "featuredServiceImageAlt" : "Capacitación, ilustración animada",
+        "link": "servicios/#capacitacion"
     },
     "culture" : {
         "title": "Cultura",

@@ -300,7 +300,7 @@ const FeaturedService = (props) => {
             <FeaturedServiceWrapper ishomepage={props.ishomepage}> 
                 <FeaturedServiceLink
                     ishomepage={props.ishomepage}
-                    to='/servicios/#capacitacion'
+                    to={intl.formatMessage({id: "service_subsection.link"})}
                 >
                     <ImageContainer ishomepage={props.ishomepage}>
                         <FeaturedServiceImage

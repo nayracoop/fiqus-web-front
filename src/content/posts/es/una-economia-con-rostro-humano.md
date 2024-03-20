@@ -5,7 +5,7 @@ title: "Una economia con rostro humano"
 author: "Diego Calero"
 slug: "/una-economia-con-rostro-humano"
 date: "2019-07-15"
-image:  ../images/experiencia-de-intercooperacion-header.jpg
+image:  ../images/una-economia-con-rostro-humano.jpg
 imageCredits: "Créditos de imagen unsplash"
 tags: ["Elixir", "Phoenix"]
 ---

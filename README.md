@@ -9,6 +9,7 @@
     Navigate into your new site’s directory and start it up.
 
     ```shell
+    export NODE_OPTIONS=--openssl-legacy-provider
     npm run develop
     ```
 
@@ -24,10 +25,8 @@
     ```
     Will create or update the build folder that should be uploaded to the server. 
 
+## NOTE 🚨
 
-    ```shell
-    npm run deploy
-    ```
-    Will create or update the build folder and also upload it to gh-pages: https://nayracoop.github.io/fiqus-web-front
+we have to configure the domain in setting/pages after a deploy
 
 

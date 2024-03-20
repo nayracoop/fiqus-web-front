@@ -8,6 +8,11 @@
     "footer": {
         "designby": "Intercooperative work made by",
         "coopName": "el maizal and nayra",
+        "coopName1": "el maizal",
+        "coopName2": "nayra",
+        "coopName1Path": "https://elmaizal.coop.ar",
+        "coopName2Path": "https://nayra.coop/en",
+        "preposition": "and",
         "disclaimer": "Unless stated otherwise, content on this site is licensed under ",
         "licenseName": "Creative Commons Attribution",
         "licenseIconAlt": "Creative Commons Attribution logo"
@@ -63,14 +68,14 @@
     "verMasArticulos": "view all articles",
     "y": " and ",
     "contactForm": {
-        "title": "Contact",
+        "title": "Contact us",
         "nameField": "Name",
         "emailField": "E-mail",
         "requiredFieldError": "Please complete the required field",
         "textAreaField": "Message",
         "messageSent": "Your message has been sent.",
         "thankYou": "Thank you for contacting us",
-        "email": "info@fiqus.com",
+        "email": "info@fiqus.coop",
         "sedes": "Locations",
         "office1": "14 de Julio 1268 Ciudad de Buenos Aires, Argentina",
         "office2": "Las Frutillas 109, Casa 2 Villa La Angostura, Neuquén, Argentina"
@@ -145,7 +150,8 @@
         "title": "Training",
         "description": "We provide technical and/or cooperative training for organizations, cooperatives and companies in which we seek to share in a friendly and systematized way the knowledge obtained in the technological and cooperative fields.",
         "image" : "capacitacion",
-        "featuredServiceImageAlt" : "Training animated image"
+        "featuredServiceImageAlt" : "Training animated image",
+        "link": "servicios/#capacitacion"
     },
     "culture" : {
         "title": "Culture",

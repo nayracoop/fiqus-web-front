@@ -1,7 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
 import { changeLocale } from "gatsby-plugin-react-intl";
-import { useEffect } from "react";
 import styled from 'styled-components'
 import Img from "gatsby-image"
 import data from '../content/content.json'
@@ -9,6 +8,8 @@ import { useIntl, Link } from "gatsby-plugin-react-intl"
 
 import Button from '../components/common/Button'
 import Tags from '../components/common/Tags'
+
+import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
 
 const styles = data.styles
 
@@ -112,7 +113,6 @@ const PostContent = styled.div`
       p{
         margin-bottom:30px;
       }
-
       h2{
         font-size: .88rem;
         line-height: 23px;
@@ -120,7 +120,9 @@ const PostContent = styled.div`
         font-weight: ${styles.fontWeight.bold};
         margin-bottom: 20px;
       }
-
+      h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 15px;
+      }
       figure{
         margin-bottom: 30px;
         max-width: 320px;
@@ -135,6 +137,41 @@ const PostContent = styled.div`
           background: ${styles.colors.greenLight};
           padding: 5px 10px;
           margin-top: 0;
+        }
+      }
+      blockquote{
+        display:block;
+        background: #fff;
+        padding: 1rem 1rem 0.1rem 2.5rem;
+        margin: 0 0 20px;
+        position: relative;
+        
+        font-size: 16px;
+        line-height: 1.2;
+        color: #666;
+        text-align: justify;
+        
+        border-left: 15px solid #510066;
+        border-right: 2px solid #510066;
+        
+        -moz-box-shadow: 2px 2px 15px #ccc;
+        -webkit-box-shadow: 2px 2px 15px #ccc;
+        box-shadow: 2px 2px 15px #ccc;
+      }
+      blockquote a{
+        text-decoration: none;
+        background: #eee;
+        cursor: pointer;
+        padding: 0 3px;
+        color: #510066;
+      }
+      blockquote a:hover{
+       color: #666;
+      }
+      p {
+        code {
+          background: #eee;
+          color: #510066;
         }
       }
 `
@@ -165,17 +202,31 @@ const TagsTitle = styled.h4`
 const Btn = styled(Button)`
   display: flex;
   justify-content: center;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 `
 
-export default function Post({ data, props }) {
-  const { html, frontmatter: post } = data.markdownRemark;
+export default function Post({ data: {allMarkdownRemark: { edges }} }) {
+  deckDeckGoHighlightElement();
   const intl = useIntl();
-
-  useEffect(() => {
-    if (post.lang !== "es") {
-      changeLocale(post.lang);
-    }
-  }, [post.lang]);
+  let post = {};
+  let html = "";
+  if (edges[0]) {
+    post = edges[0].node.frontmatter
+  } else {
+    return (
+      <PostContainer>
+      </PostContainer>
+    )
+  }
+  const postFiqus = edges.forEach((e) => {
+    const { frontmatter: p } = e.node;
+    if (p.lang === intl.locale) {
+      post = p;
+      html = e.node.html;
+    }      
+  })
 
   return (
   <PostContainer>
@@ -187,7 +238,7 @@ export default function Post({ data, props }) {
     <BreadcrumbContainer>
       <BreadcrumbWrapper>
           <Breadcrumb>
-            <BlogLink to='/blog'>Blog</BlogLink> {post.title}
+            <BlogLink to='/blog'>Blog</BlogLink> / {post.title}
           </Breadcrumb>
       </BreadcrumbWrapper>
     </BreadcrumbContainer>
@@ -219,28 +270,34 @@ export default function Post({ data, props }) {
   );
 }
 
+
 export const pageQuery = graphql`
-  query PostQuery($slug: String!) {
-    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
-      html
-      frontmatter {
-        lang
-        type
-        title
-        author
-        slug
-        date
-        tags
-        image{
-          childImageSharp {
-            fluid(maxWidth: 800) {
-              ...GatsbyImageSharpFluid
+  query ($slug: String!) {
+    allMarkdownRemark(filter: {frontmatter: { type: {eq: "post"}, slug: { eq: $slug } }}){
+      edges {
+        node {
+          id
+          html
+          frontmatter {
+            lang
+            type
+            title
+            author
+            slug
+            date
+            tags
+            image{
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
             }
+            imageCredits
           }
+          timeToRead
         }
-        imageCredits
       }
-      timeToRead
     }
   }
 `;

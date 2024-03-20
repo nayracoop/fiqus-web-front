@@ -5,7 +5,7 @@ title: "Debatiendo en Joggineta: Deuda externa"
 author: "Martin Silva"
 slug: "/debatiendo-en-joggineta-deuda-externa"
 date: "2019-07-16"
-image:  ../images/experiencia-de-intercooperacion-header.jpg
+image:  ../images/deuda-externa.jpeg
 imageCredits: "Créditos de imagen unsplash"
 tags: ["Intercooperacion"]
 ---

@@ -84,6 +84,28 @@ const ImageContainer = styled.div`
                 margin-right: 17px;`
             }
         }}
+        ${props => {
+            if (props.section === 'labs') {
+                return  `
+                svg {
+                    width: 100%!important;
+                    height: auto!important;
+                }
+                `
+            }
+        }}
+    }
+    @media (min-width: ${styles.breakpoints.m}px) and (max-width: ${styles.breakpoints.l}px){
+        ${props => {
+            if (props.section === 'cultura') {
+                return  `
+                svg {
+                    width: 100%!important;
+                    height: auto!important;
+                }
+                `
+            }
+        }}
     }
     
 `

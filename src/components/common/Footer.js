@@ -49,9 +49,14 @@ const FooterCopyright = styled.div`
           margin-top: 0;
         }
 `
-const FooterCoopName = styled.span`
+const FooterCoopName = styled.a`
     font-weight:${styles.fontWeight.bold};
     text-transform: uppercase;
+    text-decoration: none;
+    color: ${styles.colors.white};
+    &:hover {
+        color: ${styles.colors.greenMain}!important;
+    }
 `
 const FooterLicenseContent = styled.p`
       max-width: 342px;
@@ -82,8 +87,24 @@ const Footer = () => {
                         </FooterLicenseContent>
                     </FooterLicense>
                     <FooterCopyright>
-                        {intl.formatMessage({id: "footer.designby" })}
-                        <FooterCoopName> {intl.formatMessage({id: "footer.coopName" })}</FooterCoopName>
+                        {intl.formatMessage({id: "footer.designby" })}{" "}
+                        <FooterCoopName
+                            type="link"
+                            isLink={true}
+                            href={intl.formatMessage({ id: "footer.coopName1Path" })}
+                            target="_blank"
+                        >
+                        {intl.formatMessage({ id: "footer.coopName1" })}
+                        </FooterCoopName>
+                    {" "}{intl.formatMessage({ id: "footer.preposition" })}{" "}
+                        <FooterCoopName
+                            type="link"
+                            isLink={true}
+                            href={intl.formatMessage({ id: "footer.coopName2Path" })}
+                            target="_blank"
+                        >
+                        {intl.formatMessage({ id: "footer.coopName2" })}
+                        </FooterCoopName>
                     </FooterCopyright>
                 </FooterWrapper>
             </FooterContainer>

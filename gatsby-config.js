@@ -1,13 +1,8 @@
 module.exports = {
-  pathPrefix: "/fiqus-web-front",
   siteMetadata: {
-    siteUrl: "https://www.fiqus.coop",
+    siteUrl: "https://fiqus.coop",
     title: "fiqus-web",
     menuLinks: [
-      /*{
-        name:"Home",
-        link:"/"
-      },*/
       {
         name:"Servicios",
         link:"/servicios"
@@ -23,11 +18,7 @@ module.exports = {
       {
         name:"Blog",
         link:"/blog"
-      }/*,
-      {
-        name:"Articles",
-        link:"/articles"
-      }*/
+      }
     ]
   },
   plugins: [
@@ -47,6 +38,12 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          {
+            resolve: `gatsby-remark-highlight-code`,
+            options: {
+              terminal: "ubuntu",
+            },
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {
